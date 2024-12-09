@@ -1,0 +1,9 @@
+[package]
+name = "test-bin"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+aleo-program-server = { git = "ssh://git@github.com/scuwan/aleo-program-server.git", branch = "main" }
+anyhow = "1.0.93"
+tokio = { version = "1", features = ["macros"] }
